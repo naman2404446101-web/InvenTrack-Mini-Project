@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS stock_history (
 -- Sample Data
 -- ============================================================
 
--- Default admin user (password: admin123)
+-- Default admin user (password: password)
 INSERT INTO users (name, email, password, role) VALUES
 ('Admin User', 'admin@inventory.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
 
